@@ -37,7 +37,7 @@
     </style>
     @stack('css')
 
-    <!-- =======================================================
+
   * Template Name: Maxim - v2.2.0
   * Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
   * Author: BootstrapMade.com
