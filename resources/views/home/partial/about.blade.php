@@ -14,7 +14,7 @@
                     Here you can find all kind of NCTB TEXT BOOKS from class
                     FIVE-TWELVE.TeachingHub-BD is trying to give easy solution for
                     all CQ and MCQ problems and also giving suggestions for
-                    PSC,JSC,SSC,HSC EXAMS.It is a online learning platform.We are
+                    PSC,JSC,SSC,HSC EXAMS.It is an online learning platform.We are
                     providing solution of all maths books from class five-twelve.
                 </p>
                 <div class="icon-box" data-aos="fade-up">
