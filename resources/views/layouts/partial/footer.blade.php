@@ -67,6 +67,7 @@
                     </ul>
                 </div>
 
+
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                     <h4></h4>
                     <ul>
