@@ -53,7 +53,6 @@
     @yield('main')
     <!-- End #main -->
 
-    <!-- ======= Footer ======= -->
     @include('layouts.partial.footer')
     <!-- End Footer -->
 
