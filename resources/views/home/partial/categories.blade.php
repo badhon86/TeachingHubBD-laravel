@@ -38,7 +38,7 @@
                             <div class="portfolio-links">
                                 <a href="{{asset($category->image)}}" data-gall="portfolioGallery" class="venobox"
                                     title="পঞ্চম শ্রেণী"><i class="bx bx-plus"></i></a>
-                                <a href="{{route('page',['slug' => $category->slug])}}" title="More Details"><i
+                                <a href="{{route('page',['slug' => $category->slug])}}" target="_blank" title="More Details"><i
                                         class="bx bx-link"></i></a>
                             </div>
                         </div>
