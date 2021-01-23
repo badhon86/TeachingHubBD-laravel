@@ -1,8 +1,6 @@
 @extends('layouts.index')
 @section('main')
-<br>
-<br>
-<br>
+
 
 <section id="contact" class="contact">
     <div class="container">
