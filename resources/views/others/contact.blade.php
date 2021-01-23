@@ -3,7 +3,7 @@
 
 
 <section id="contact" class="contact">
-    <div class="container">
+    <div class="container-fluid">
       <div class="section-title" data-aos="fade-up">
         <h2>Contact</h2>
 
