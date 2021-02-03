@@ -18,3 +18,4 @@ Route::get('privacy-policy', 'OtherPageController@getPrivacyPolicy')->name('priv
 Route::get('terms-and-condition', 'OtherPageController@getTermsAndCondition')->name('terms-and-condition'); // terms and cndition page
 Route::get('contact', 'OtherPageController@getContact')->name('contact'); // contact page
 Route::get('/{slug}', 'PageController@index')->name('page'); // all bokks page
+Route::get('calculator', 'OtherPageController@getCalculator')->name('calculator');
