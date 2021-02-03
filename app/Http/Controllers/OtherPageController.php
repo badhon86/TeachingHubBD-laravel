@@ -18,4 +18,8 @@ class OtherPageController extends Controller
     {
         return view('others.contact');
     }
+    public function getCalculator()
+    {
+        return view('others.calculator');
+    }
 }

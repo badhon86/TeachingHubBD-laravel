@@ -1,7 +1,7 @@
 @extends('layouts.index')
 @section('main')
 
-<div class="container">
+<div class="container container-fluid p-3">
     <div class="section-title" data-aos="fade-up">
         <h2>CALCULATOR</h2>
         <p></p>
