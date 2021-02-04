@@ -1,6 +1,9 @@
 @extends('layouts.index')
 @section('main')
 
+
+<link href="{{asset('assets/css/styles.css')}}" rel="stylesheet" />
+<script src="{{asset('assets/js/script.js')}}" defer></script>
 <section>
     <body>
         <div class="calculator-grid">
