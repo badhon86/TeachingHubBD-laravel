@@ -72,11 +72,11 @@
                     <h4></h4>
                     <ul>
                         <li class=" {{ url()->current()==route('privacy-policy') ? 'active' : '' }}">
-                            <a class="" href="{{route('privacy-policy')}}">Privacy Policy</a>
+                            <a class="" target="_blank" href="{{route('privacy-policy')}}">Privacy Policy</a>
                         </li>
                         <br>
                         <li class="{{ url()->current()==route('terms-and-condition') ? 'active' : '' }}">
-                            <a class=" " href="{{route('terms-and-condition')}}">Terms & Condition</a>
+                            <a class=" " target="_blank" href="{{route('terms-and-condition')}}">Terms & Condition</a>
                         </li>
 
                     </ul>

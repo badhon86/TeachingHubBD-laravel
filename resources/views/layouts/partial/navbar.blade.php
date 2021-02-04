@@ -25,7 +25,7 @@
                     <a class="nav-link" href="#about">About Us</a>
                 </li>
                 <li class="nav-item {{ url()->current()==route('calculate') ? 'active' : '' }}">
-                    <a class="nav-link" href="{{route('calculate')}}">Calculator</a>
+                    <a class="nav-link" target="_blank" href="{{route('calculate')}}">Calculator</a>
                 </li>
             </ul>
         </div>
