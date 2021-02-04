@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 class OtherPageController extends Controller
 {
     public function getTermsAndCondition()
@@ -17,9 +16,5 @@ class OtherPageController extends Controller
     public function getContact()
     {
         return view('others.contact');
-    }
-    public function getCalculator()
-    {
-        return view('others.calculator');
     }
 }
