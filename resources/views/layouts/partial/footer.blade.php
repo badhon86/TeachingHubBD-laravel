@@ -78,6 +78,7 @@
                         <li class="{{ url()->current()==route('terms-and-condition') ? 'active' : '' }}">
                             <a class=" " href="{{route('terms-and-condition')}}">Terms & Condition</a>
                         </li>
+
                     </ul>
                 </div>
 
