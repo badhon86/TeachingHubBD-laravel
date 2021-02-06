@@ -15,7 +15,7 @@
 Route::get('/', 'HomeController@index')->name('home'); // Home page.
 Route::post('/message', 'MessageController@store')->name('message'); // post message from page.
 Route::get('privacy-policy', 'OtherPageController@getPrivacyPolicy')->name('privacy-policy'); // privacy and policy page.
-Route::get('terms-and-condition', 'OtherPageController@getTermsAndCondition')->name('terms-and-condition'); // terms and cndition page
+Route::get('terms-and-condition', 'OtherPageController@getTermsAndCondition')->name('terms-and-condition'); // terms  cndition page
 Route::get('calculate', 'OtherPageController@getCalculate')->name('calculate'); // terms and cndition page
 Route::get('contact', 'OtherPageController@getContact')->name('contact'); // contact page
 Route::get('/{slug}', 'PageController@index')->name('page'); // all bokks page
