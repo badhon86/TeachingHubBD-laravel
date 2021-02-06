@@ -12,7 +12,7 @@
 */
 
 
-Route::get('/', 'HomeController@index')->name('home'); // Home page
+Route::get('/', 'HomeController@index')->name('home'); // Home page.
 Route::post('/message', 'MessageController@store')->name('message'); // post message from page
 Route::get('privacy-policy', 'OtherPageController@getPrivacyPolicy')->name('privacy-policy'); // privacy and policy page
 Route::get('terms-and-condition', 'OtherPageController@getTermsAndCondition')->name('terms-and-condition'); // terms and cndition page
