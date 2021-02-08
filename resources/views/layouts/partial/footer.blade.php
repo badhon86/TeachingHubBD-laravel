@@ -9,7 +9,7 @@
                             Mohammadpur, Salimullah RD. <br />
                             DHAKA,BANGLADESH<br /><br />
                             <!--                 <strong>Phone:</strong> +1 5589 55488 55<br>-->
-                            <strong>Email:</strong> badhonsarkar518@gmail.com<br />
+                            <strong>Email:</strong><a href="mailto:badhonsarkar518@gmail.com">badhonsarkar518@gmail.com</a>
                         </p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
