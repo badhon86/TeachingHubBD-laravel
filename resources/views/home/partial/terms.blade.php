@@ -11,7 +11,7 @@
                     <i class="bx bx-help-circle icon-help"></i>
                     <a data-toggle="collapse" class="collapse" href="#faq-list-1">Personal Data collected for
                         the following purposes and using
-                        th
+                        t
                         <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                     <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
                         <p>
