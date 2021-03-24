@@ -20,3 +20,4 @@ Route::get('calculate', 'OtherPageController@getCalculate')->name('calculate'); 
 Route::get('contact', 'OtherPageController@getContact')->name('contact'); // contact page.
 Route::get('/{slug}', 'PageController@index')->name('page'); // all books pages
 
+//w
