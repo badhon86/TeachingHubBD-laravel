@@ -20,9 +20,9 @@
 	<!--/nav-->
 	<nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-sm-3 px-0">
 			<a class="navbar-brand" href="index.html">
-				<span class="fa fa-newspaper-o"></span> NewsBlog</a>
+				<span class="fa fa-newspaper-o"></span> TeachingHub-BD</a>
 			<!-- if logo is image enable this
-						<a class="navbar-brand" href="#index.html">
+						<a class="navbar-brand" href="index.html">
 							<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
 						</a> -->
 
@@ -39,7 +39,7 @@
 				<nav class="mx-auto">
 					<div class="search-bar">
 						<form class="search">
-							<input type="search" class="search__input" name="search" placeholder="Discover news, articles and more"
+							<input type="search" class="search__input" name="search" placeholder="Discover discussion, articles and more"
 								onload="equalWidth()" required>
 							<span class="fa fa-search search__icon"></span>
 						</form>
