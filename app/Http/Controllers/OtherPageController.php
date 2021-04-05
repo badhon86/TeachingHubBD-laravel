@@ -21,4 +21,8 @@ class OtherPageController extends Controller
     {
         return view('others.calculate');
     }
+    public function getDiscuss()
+    {
+        return view('others.discuss');
+    }
 }
