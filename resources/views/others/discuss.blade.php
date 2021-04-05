@@ -1,5 +1,5 @@
 @extends('layouts.index2')
-@section('main')
+@section('main2')
 
 <section class="w3l-homeblock1 py-sm-5 py-4">
     <div class="container py-md-4">

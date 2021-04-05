@@ -87,7 +87,7 @@
 <!-- /homeblock1-->
 
 
-@yield('main')
+@yield('main2')
 
 
 
