@@ -577,7 +577,7 @@
         </div>
     </div>
 </div>
-<div class="w3l-subscribe py-5">
+{{-- <div class="w3l-subscribe py-5">
     <div class="container py-lg-5 py-md-4">
         <div class="w3l-subscribe-content text-center bg-clr-white py-md-5 py-2">
             <div class="py-5">
@@ -591,7 +591,7 @@
         </div>
     </div>
 </div>
-
+ --}}
 
 
 
