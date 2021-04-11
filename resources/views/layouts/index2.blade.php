@@ -181,7 +181,7 @@
     })
   })
 </script>
-<!-- //script for testimonials -->
+
 
 <!-- bootstrap -->
 <script src="assets/jses/bootstrap.min.js"></script>
