@@ -47,7 +47,10 @@
 				</nav>
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home</a>
+						{{-- <a class="nav-link" href="index.html">Home</a> --}}
+                        <li class="nav-item {{ url()->current()==route('home') ? 'active' : '' }}">
+                            <a class="nav-link" href="{{route('home')}}">Home</a>
+                        </li>
 					</li>
 					<li class="nav-item dropdown @@pages__active">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
