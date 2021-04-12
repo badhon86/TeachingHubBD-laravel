@@ -63,7 +63,7 @@
 						</div>
 					</li>
 					<li class="nav-item @@contact__active">
-						<a class="nav-link" href="contact.html">Contact</a>
+						<a class="nav-link" href="{{route('disdetails')}}">Contact</a>
 					</li>
 				</ul>
 			</div>
