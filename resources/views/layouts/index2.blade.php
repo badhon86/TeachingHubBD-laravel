@@ -49,7 +49,7 @@
 					<li class="nav-item active">
 						{{-- <a class="nav-link" href="index.html">Home</a> --}}
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('disdetails')}}">Home</a>
+                            <a class="nav-link" href="{{route('discuss')}}">Home</a>
                         </li>
 					</li>
 					<li class="nav-item dropdown @@pages__active">
@@ -63,7 +63,7 @@
 						</div>
 					</li>
 					<li class="nav-item @@contact__active">
-						<a class="nav-link" href="{{route('disdetails')}}">details</a>
+						<a class="nav-link" href="{{route('discuspage')}}">details</a>
 					</li>
 				</ul>
 			</div>

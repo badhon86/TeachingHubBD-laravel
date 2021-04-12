@@ -18,7 +18,8 @@ Route::get('privacy-policy', 'OtherPageController@getPrivacyPolicy')->name('priv
 Route::get('terms-and-condition', 'OtherPageController@getTermsAndCondition')->name('terms-and-condition'); // terms & cndition page
 Route::get('calculate', 'OtherPageController@getCalculate')->name('calculate'); // terms and cndition page.
 Route::get('discuss', 'OtherPageController@getDiscuss')->name('discuss'); // blog page.
+Route::get('discuspage', 'OtherPageController@getDisDetails')->name('discuspage');
 Route::get('contact', 'OtherPageController@getContact')->name('contact'); // contact page.
 Route::get('/{slug}', 'PageController@index')->name('page'); // all books pages
-Route::get('disdetails', 'OtherPageController@getDisDetails')->name('disdetails');
+
 //work is not
