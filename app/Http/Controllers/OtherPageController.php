@@ -25,4 +25,8 @@ class OtherPageController extends Controller
     {
         return view('others.discuss');
     }
+    public function getDisDetails()
+    {
+        return view('others.disdetails');
+    }
 }
