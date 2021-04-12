@@ -20,5 +20,5 @@ Route::get('calculate', 'OtherPageController@getCalculate')->name('calculate'); 
 Route::get('discuss', 'OtherPageController@getDiscuss')->name('discuss'); // terms and cndition page.
 Route::get('contact', 'OtherPageController@getContact')->name('contact'); // contact page.
 Route::get('/{slug}', 'PageController@index')->name('page'); // all books pages
-Route::get('discuss', 'OtherPageController@getDiscuss')->name('discuss');
+Route::get('discuss', 'OtherPageController@getDisDetails')->name('disdetails');
 //work is not
