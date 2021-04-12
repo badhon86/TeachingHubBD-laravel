@@ -19,7 +19,7 @@
 	<div class="container">
 	<!--/nav-->
 	<nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-sm-3 px-0">
-			<a class="navbar-brand" href="{{route('home')}}">
+			<a class="navbar-brand" href="{{route('discuss')}}">
 				<span class="fa fa-newspaper-o"></span> TeachingHub-BD</a>
 			<!-- if logo is image enable this
 						<a class="navbar-brand" href="index.html">
@@ -48,8 +48,8 @@
 				<ul class="navbar-nav">
 					<li class="nav-item active">
 						{{-- <a class="nav-link" href="index.html">Home</a> --}}
-                        <li class="nav-item {{ url()->current()==route('home') ? 'active' : '' }}">
-                            <a class="nav-link" href="{{route('home')}}">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('disdetails')}}">Home</a>
                         </li>
 					</li>
 					<li class="nav-item dropdown @@pages__active">
@@ -63,7 +63,7 @@
 						</div>
 					</li>
 					<li class="nav-item @@contact__active">
-						<a class="nav-link" href="{{route('disdetails')}}">Contact</a>
+						<a class="nav-link" href="{{route('disdetails')}}">details</a>
 					</li>
 				</ul>
 			</div>
