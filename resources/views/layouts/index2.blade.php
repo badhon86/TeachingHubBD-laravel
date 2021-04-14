@@ -19,7 +19,7 @@
 	<div class="container">
 	<!--/nav-->
 	<nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-sm-3 px-0">
-			<a class="navbar-brand" href="{{route('discuss')}}">
+			<a class="navbar-brand" href="{{route('home')}}">
 				<span class="fa fa-newspaper-o"></span> TeachingHub-BD</a>
 			<!-- if logo is image enable this
 						<a class="navbar-brand" href="index.html">
