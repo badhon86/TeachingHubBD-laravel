@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>TeachingHub-BD</title>
+    <title>TeachingHub-BD(blog)</title>
 
     <link href="//fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="//fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
 	<!--/nav-->
 	<nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-sm-3 px-0">
 			<a class="navbar-brand" href="{{route('home')}}">
-				<span class="fa fa-newspaper-o"></span> TeachingHub-BD</a>
+				<span class="fa fa-newspaper-o"></span> TeachingHub-BD(Blog)</a>
 			<!-- if logo is image enable this
 						<a class="navbar-brand" href="index.html">
 							<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
