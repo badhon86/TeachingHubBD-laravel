@@ -1,14 +1,14 @@
 @extends('layouts.index2')
 @section('main2')
 
-<section class="w3l-homeblock1 py-sm-5 py-4">
+{{-- <section class="w3l-homeblock1 py-sm-5 py-4">
     <div class="container py-md-4">
         <div class="grids-area-hny main-cont-wthree-fea row">
             <div class="col-lg-3 col-6 grids-feature">
                 <a href="beauty.html">
                     <div class="area-box">
-                        <span class="fa fa-bath"></span>
-                        <h4 class="title-head">Beauty</h4>
+                        <span class="fa fa-book"></span>
+                        <h4 class="title-head">Add Topic</h4>
                     </div>
                 </a>
             </div>
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- //homeblock1-->
 
 
@@ -46,8 +46,8 @@
     <div class="container py-lg-5 py-md-4">
         <!-- block -->
         <div class="left-right">
-            <h3 class="section-title-left mb-sm-4 mb-2"> Fashion and style</h3>
-            <a href="fashiom.html" class="more btn btn-small mb-sm-0 mb-4">View more</a>
+            <h3 class="section-title-left mb-sm-4 mb-2 ">Topics</h3>
+            {{-- <a href="fashiom.html" class="more btn btn-small mb-sm-0 mb-4">View more</a> --}}
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 item">
