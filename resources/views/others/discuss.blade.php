@@ -41,84 +41,7 @@
 </section>
 <!-- //homeblock1-->
 
-<section class="w3l-testimonials" id="testimonials">
-    <!-- main-slider -->
-    <div class="testimonials pt-2 pb-5">
-        <div class="container pb-lg-5">
-            <div class="owl-testimonial owl-carousel owl-theme mb-md-0 mb-sm-5 mb-4">
-                <div class="item">
-                    <div class="row slider-info">
-                        <div class="col-lg-8 message-info align-self">
-                            <span class="label-blue mb-sm-4 mb-3">Beauty</span>
-                            <h3 class="title-big mb-4">Create an Art that shows the beauty in everyone’s ideas of flaws.
-                            </h3>
-                            <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                                sit id accusantium officia quod quasi necessitatibus perspiciatis Harum error
-                                provident quibusdam tenetur. Ut fermentum leo quis sapienet faucibus, at
-                                scelerisque sem feugiat. Nulla in eros purus.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-8 img-circle mt-lg-0 mt-4">
-                            <img src="assets/images/beauty.jpg" class="img-fluid radius-image-full" alt="client image">
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row slider-info">
-                        <div class="col-lg-8 message-info align-self">
-                            <span class="label-blue mb-sm-4 mb-3">Fashion and Style</span>
-                            <h3 class="title-big mb-4">Addicted to Fashion is the Armor to survive the reality of
-                                Everyday Life.
-                            </h3>
-                            <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                                sit id accusantium officia quod quasi necessitatibus perspiciatis Harum error
-                                provident quibusdam tenetur. Ut fermentum leo quis sapienet faucibus, at
-                                scelerisque sem feugiat. Nulla in eros purus.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-8 img-circle mt-lg-0 mt-4">
-                            <img src="assets/images/fashion.jpg" class="img-fluid radius-image-full" alt="client image">
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row slider-info">
-                        <div class="col-lg-8 message-info align-self">
-                            <span class="label-blue mb-sm-4 mb-3">Food and Wellness</span>
-                            <h3 class="title-big mb-4">Create healthy habits, not restrictions. Wellness is a taste of
-                                being.
-                            </h3>
-                            <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                                sit id accusantium officia quod quasi necessitatibus perspiciatis Harum error
-                                provident quibusdam tenetur. Ut fermentum leo quis sapienet faucibus, at
-                                scelerisque sem feugiat. Nulla in eros purus.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-8 img-circle mt-lg-0 mt-4">
-                            <img src="assets/images/food.jpg" class="img-fluid radius-image-full" alt="client image">
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row slider-info">
-                        <div class="col-lg-8 message-info align-self">
-                            <span class="label-blue mb-sm-4 mb-3">Lifestyle</span>
-                            <h3 class="title-big mb-4">To succeed in Life, you need 3 things : a wishbone, a backbone, a
-                                funny bone.
-                            </h3>
-                            <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                                sit id accusantium officia quod quasi necessitatibus perspiciatis Harum error
-                                provident quibusdam tenetur. Ut fermentum leo quis sapienet faucibus, at
-                                scelerisque sem feugiat. Nulla in eros purus.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-8 img-circle mt-lg-0 mt-4">
-                            <img src="assets/images/lifestyle.jpg" class="img-fluid radius-image-full"
-                                alt="client image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /main-slider -->
-</section>
+
 <div class="w3l-homeblock2 py-5">
     <div class="container py-lg-5 py-md-4">
         <!-- block -->
@@ -220,11 +143,11 @@
                         </div>
                     </a>
                 </div>
-                <div class="sponsers mt-5">
+                {{-- <div class="sponsers mt-5">
                     <h3 class="section-title-left mb-4"> Our sponsers</h3>
                     <a href="#ad-banner"><img src="assets/images/ad.jpg" alt="" class="img-fluid radius-image-full" /></a>
                     <a href="#advertise" class="text-center d-block text-uppercase">Advertise with us </a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
