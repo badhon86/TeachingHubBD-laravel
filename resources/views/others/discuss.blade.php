@@ -110,10 +110,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-4 left-right bg-clr-white p-3">
+                {{-- <div class="mt-4 left-right bg-clr-white p-3">
                     <h3 class="section-title-left align-self pl-2 mb-sm-0 mb-3">Advertise with us </h3>
                     <a class="btn btn-style btn-primary" href="#url">Learn more</a>
-                </div>
+                </div> --}}
             </div>
             <div class="col-lg-4 trending mt-lg-0 mt-5">
                 <div class="topics">
@@ -431,7 +431,7 @@
         </div>
     </div>
 </div>
-<div class="w3l-homeblock2 w3l-homeblock6 py-5">
+{{-- <div class="w3l-homeblock2 w3l-homeblock6 py-5">
     <div class="container-fluid px-sm-5 py-lg-5 py-md-4">
         <!-- block -->
             <h3 class="section-title-left mb-4"> Trending Now</h3>
@@ -499,7 +499,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 {{-- <div class="w3l-subscribe py-5">
     <div class="container py-lg-5 py-md-4">
         <div class="w3l-subscribe-content text-center bg-clr-white py-md-5 py-2">
