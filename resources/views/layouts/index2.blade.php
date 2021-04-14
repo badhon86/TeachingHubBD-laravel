@@ -52,18 +52,9 @@
                             <a class="nav-link" href="{{route('discuss')}}">Home</a>
                         </li>
 					</li>
-					<li class="nav-item dropdown @@pages__active">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							More <span class="fa fa-angle-down"></span>
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item @@b__active" href="beauty.html">Beauty</a>
-							<a class="dropdown-item @@fa__active" href="fashion.html">Fashion & Style</a>
-						</div>
-					</li>
+
 					<li class="nav-item @@contact__active">
-						<a class="nav-link" href="{{route('discuspage')}}">details</a>
+						<a class="nav-link" href="#">Add Discuss Topic</a>
 					</li>
 				</ul>
 			</div>
