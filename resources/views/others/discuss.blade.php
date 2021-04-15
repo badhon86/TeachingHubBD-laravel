@@ -56,27 +56,30 @@
                 <div class="card">
                     <div class="card-header p-0 position-relative">
                         <a href="#blog-single.html">
-                            <img class="card-img-bottom d-block radius-image-full" src="assets/images/fashion1.jpg"
+                            <img class="card-img-bottom d-block radius-image-full" src="assets/images/topic.jpg"
                                 alt="Card image cap">
                         </a>
                     </div>
                     <div class="card-body blog-details">
-                        <a href="#blog-single.html" class="blog-desc">{{$Data->Topic_name}}</a>
+                        <a href="http://127.0.0.1:8000/admin/discuss" target="_blank" class="blog-desc">{{$Data->Topic_name}}</a>
                         <div class="author align-items-center">
-                            <img src="assets/images/a1.jpg" alt="" class="img-fluid rounded-circle" />
+                            <img src="{{$Data->topic_image}}" alt="" class="img-fluid rounded-circle" />
                             <ul class="blog-meta">
                                 <li>
                                     <a href="http://127.0.0.1:8000/admin/discuss" target="_blank">{{$Data->your_name}}</a> </a>
                                 </li>
                                 <li class="meta-item blog-lesson">
-                                    <span class="meta-value"> July 13, 2020 </span>. <span
-                                        class="meta-value ml-2"><span class="fa fa-clock-o"></span> 1 min</span>
+                                    <span class="meta-value"> {{$Data->created_at}} </span>. <span
+                                        class="meta-value ml-2"><span class="fa fa-clock-o"></span>  {{$Data->updated_at}} updated</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
-            </div>@endforeach
+                </div><br>
+
+            </div>
+
+            @endforeach
             {{-- <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
                 <div class="card">
                     <div class="card-header p-0 position-relative">
