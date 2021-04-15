@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 class OtherPageController extends Controller
 {
@@ -28,5 +28,11 @@ class OtherPageController extends Controller
     public function getDisDetails()
     {
         return view('others.disdetails');
+    }
+    public function data()
+    {
+        $gsData = DB::table('discuss')->get();
+        //return view ('assets.gallery', compact('gsData'));
+        return view('others.discuss', compact('gsData'));
     }
 }

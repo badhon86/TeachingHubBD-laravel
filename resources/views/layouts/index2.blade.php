@@ -54,7 +54,7 @@
 					</li>
 
 					<li class="nav-item @@contact__active">
-						<a class="nav-link" href="http://127.0.0.1:8000/admin/discuss/add?ref=NCiZyVk">Add Discuss Topic</a>
+						<a class="nav-link" href="http://127.0.0.1:8000/admin/discuss/add?ref=NCiZyVk" target="-blank">Add Discuss Topic</a>
 					</li>
 				</ul>
 			</div>

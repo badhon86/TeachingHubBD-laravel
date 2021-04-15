@@ -41,7 +41,7 @@
 </section> --}}
 <!-- //homeblock1-->
 
-
+@foreach ($gsData as $Data)
 <div class="w3l-homeblock2 py-5">
     <div class="container py-lg-5 py-md-4">
         <!-- block -->
@@ -65,7 +65,7 @@
                             <img src="assets/images/a1.jpg" alt="" class="img-fluid rounded-circle" />
                             <ul class="blog-meta">
                                 <li>
-                                    <a href="author.html">Isabella ava</a> </a>
+                                    <a href="http://127.0.0.1:8000/admin/discuss/detail/2?ref=NCiZyVk">{{$Data->your_name}}</a> </a>
                                 </li>
                                 <li class="meta-item blog-lesson">
                                     <span class="meta-value"> July 13, 2020 </span>. <span
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+            {{-- <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
                 <div class="card">
                     <div class="card-header p-0 position-relative">
                         <a href="#blog-single.html">
@@ -127,10 +127,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
+
+@endforeach
 
 
 
