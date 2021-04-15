@@ -41,7 +41,7 @@
 </section> --}}
 <!-- //homeblock1-->
 
-@foreach ($gsData as $Data)
+
 <div class="w3l-homeblock2 py-5">
     <div class="container py-lg-5 py-md-4">
         <!-- block -->
@@ -49,7 +49,9 @@
             <h3 class="section-title-left mb-sm-4 mb-2 ">Topics</h3>
             {{-- <a href="fashiom.html" class="more btn btn-small mb-sm-0 mb-4">View more</a> --}}
         </div>
+
         <div class="row">
+            @foreach ($gsData as $Data)
             <div class="col-lg-4 col-md-6 item">
                 <div class="card">
                     <div class="card-header p-0 position-relative">
@@ -59,13 +61,12 @@
                         </a>
                     </div>
                     <div class="card-body blog-details">
-                        <a href="#blog-single.html" class="blog-desc">An easy Guide to buying Denim & My favourite styles
-                        </a>
+                        <a href="#blog-single.html" class="blog-desc">{{$Data->Topic_name}}</a>
                         <div class="author align-items-center">
                             <img src="assets/images/a1.jpg" alt="" class="img-fluid rounded-circle" />
                             <ul class="blog-meta">
                                 <li>
-                                    <a href="http://127.0.0.1:8000/admin/discuss/detail/2?ref=NCiZyVk">{{$Data->your_name}}</a> </a>
+                                    <a href="http://127.0.0.1:8000/admin/discuss" target="_blank">{{$Data->your_name}}</a> </a>
                                 </li>
                                 <li class="meta-item blog-lesson">
                                     <span class="meta-value"> July 13, 2020 </span>. <span
@@ -75,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>@endforeach
             {{-- <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
                 <div class="card">
                     <div class="card-header p-0 position-relative">
@@ -128,11 +129,12 @@
                     </div>
                 </div>
             </div> --}}
+
         </div>
     </div>
 </div>
 
-@endforeach
+
 
 
 
