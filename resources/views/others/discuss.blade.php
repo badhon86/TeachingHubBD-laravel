@@ -80,7 +80,7 @@
             </div>
 
             @endforeach
-ccc
+
         </div>
     </div>
 </div>
