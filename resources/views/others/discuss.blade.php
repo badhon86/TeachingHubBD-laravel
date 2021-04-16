@@ -80,58 +80,6 @@
             </div>
 
             @endforeach
-            {{-- <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                        <a href="#blog-single.html">
-                            <img class="card-img-bottom d-block radius-image-full" src="assets/images/fashion2.jpg"
-                                alt="Card image cap">
-                        </a>
-                    </div>
-                    <div class="card-body blog-details">
-                        <a href="#blog-single.html" class="blog-desc">The Satin Skirt & How to Wear it all year round fashion
-                        </a>
-                        <div class="author align-items-center">
-                            <img src="assets/images/a2.jpg" alt="" class="img-fluid rounded-circle" />
-                            <ul class="blog-meta">
-                                <li>
-                                    <a href="author.html">Charlotte mia</a> </a>
-                                </li>
-                                <li class="meta-item blog-lesson">
-                                    <span class="meta-value"> July 13, 2020 </span>. <span
-                                        class="meta-value ml-2"><span class="fa fa-clock-o"></span> 1 min</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                        <a href="#blog-single.html">
-                            <img class="card-img-bottom d-block radius-image-full" src="assets/images/fashion3.jpg"
-                                alt="Card image cap">
-                        </a>
-                    </div>
-                    <div class="card-body blog-details">
-                        <a href="#blog-single.html" class="blog-desc">What I’ll be Wearing this Party Season & the Festive edit
-                        </a>
-                        <div class="author align-items-center">
-                            <img src="assets/images/a3.jpg" alt="" class="img-fluid rounded-circle" />
-                            <ul class="blog-meta">
-                                <li>
-                                    <a href="author.html">Elizabeth</a> </a>
-                                </li>
-                                <li class="meta-item blog-lesson">
-                                    <span class="meta-value"> July 13, 2020 </span>. <span
-                                        class="meta-value ml-2"><span class="fa fa-clock-o"></span> 1 min</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
 
         </div>
     </div>
