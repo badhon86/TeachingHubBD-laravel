@@ -41,6 +41,7 @@
 
 
 
+    <script id="gs-sdk" src='//www.buildquickbots.com/botwidget/v3/demo/static/js/sdk.js?v=3' key="a7053131-0807-4b21-8383-80f1300c8b35" ></script>
 
 
 </head>
@@ -73,6 +74,8 @@
     @stack('js')
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-607b00e0ec0a0de4"></script>
+
+
 
 
 </body>
