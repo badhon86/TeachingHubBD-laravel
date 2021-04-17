@@ -16,7 +16,7 @@
             <div class="col-lg-4 col-md-6 item">
                 <div class="card">
                     <div class="card-header p-0 position-relative">
-                        <a href="http://127.0.0.1:8000/admin/discuss">
+                        <a href="http://127.0.0.1:8000/admin/discuss" target="_blank">
                             <img class="card-img-bottom d-block radius-image-full" src="assets/images/topic.jpg"
                                 alt="Card image cap">
                         </a>
