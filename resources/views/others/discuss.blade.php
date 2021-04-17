@@ -1,45 +1,6 @@
 @extends('layouts.index2')
 @section('main2')
 
-{{-- <section class="w3l-homeblock1 py-sm-5 py-4">
-    <div class="container py-md-4">
-        <div class="grids-area-hny main-cont-wthree-fea row">
-            <div class="col-lg-3 col-6 grids-feature">
-                <a href="beauty.html">
-                    <div class="area-box">
-                        <span class="fa fa-book"></span>
-                        <h4 class="title-head">Add Topic</h4>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3 col-6 grids-feature">
-                <a href="fashion.html">
-                    <div class="area-box">
-                        <span class="fa fa-female"></span>
-                        <h4 class="title-head">Fashion and style</h4>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3 col-6 grids-feature mt-lg-0 mt-md-4 mt-3">
-                <a href="#food">
-                    <div class="area-box">
-                        <span class="fa fa-cutlery"></span>
-                        <h4 class="title-head">Food and wellness</h4>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3 col-6 grids-feature mt-lg-0 mt-md-4 mt-3">
-                <a href="#lifsetyle">
-                    <div class="area-box">
-                        <span class="fa fa-pie-chart"></span>
-                        <h4 class="title-head">Lifestyle</h4>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section> --}}
-<!-- //homeblock1-->
 
 
 <div class="w3l-homeblock2 py-5">
@@ -47,7 +8,7 @@
         <!-- block -->
         <div class="left-right">
             <h3 class="section-title-left mb-sm-4 mb-2 ">Topics</h3>
-            {{-- <a href="fashiom.html" class="more btn btn-small mb-sm-0 mb-4">View more</a> --}}
+            <a href="http://127.0.0.1:8000/admin/discuss" class="more btn btn-small mb-sm-0 mb-4">View more</a>
         </div>
 
         <div class="row">
@@ -55,7 +16,7 @@
             <div class="col-lg-4 col-md-6 item">
                 <div class="card">
                     <div class="card-header p-0 position-relative">
-                        <a href="#blog-single.html">
+                        <a href="http://127.0.0.1:8000/admin/discuss">
                             <img class="card-img-bottom d-block radius-image-full" src="assets/images/topic.jpg"
                                 alt="Card image cap">
                         </a>
