@@ -71,6 +71,10 @@
     <!-- Template Main JS File -->
     <script src="{{asset('assets/js/main.js')}}"></script>
     @stack('js')
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-607b00e0ec0a0de4"></script>
+
+
 </body>
 
 </html>
