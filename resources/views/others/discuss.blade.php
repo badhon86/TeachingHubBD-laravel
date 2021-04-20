@@ -8,7 +8,7 @@
         <!-- block -->
         <div class="left-right">
             <h3 class="section-title-left mb-sm-4 mb-2 ">Topics</h3>
-            <a href="http://127.0.0.1:8000/admin/discuss"  class="more btn btn-small mb-sm-0 mb-4">View more</a>
+            <a href="http://127.0.0.1:8000/admin/discuss" target="_blank" class="more btn btn-small mb-sm-0 mb-4">View more</a>
         </div>
 
         <div class="row">
