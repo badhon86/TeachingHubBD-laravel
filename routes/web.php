@@ -21,4 +21,4 @@ Route::get('discuss', 'OtherPageController@data')->name('discuss'); // blog page
 Route::get('discuspage', 'OtherPageController@getDisDetails')->name('discuspage');
 Route::get('contact', 'OtherPageController@getContact')->name('contact'); // contact page.
 Route::get('/{slug}', 'PageController@index')->name('page'); // all books pages
-// Route
+
