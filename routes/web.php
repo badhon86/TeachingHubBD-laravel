@@ -26,4 +26,4 @@ Route::get('/{slug}', 'PageController@index')->name('page'); // all books pages
 //     'as'   => '/discuss'
 // ]);
 
-//work
+//
