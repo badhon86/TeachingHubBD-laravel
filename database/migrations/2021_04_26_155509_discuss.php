@@ -22,6 +22,7 @@ class Discuss extends Migration
 			$table->string('description')->nullable();
 			$table->string('upload')->nullable();
 			$table->string('your_name')->nullable();
+			$table->string('reply')->nullable();
 			
         });
     }
