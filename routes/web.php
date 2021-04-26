@@ -24,6 +24,4 @@ Route::get('/{slug}', 'PageController@index')->name('page'); // all books pages
 // Route::get('/discuss', [
 //     'uses' => 'OtherPageController@data',
 //     'as'   => '/discuss'
-// ]);
-
 
