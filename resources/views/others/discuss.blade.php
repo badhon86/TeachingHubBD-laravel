@@ -17,7 +17,7 @@
                 <div class="card">
                     <div class="card-header p-0 position-relative">
                         <a href="http://127.0.0.1:8000/admin/discuss" target="_blank">
-                            <img class="card-img-bottom d-block radius-image-full" src="assets/images/topic.jpg"
+                            <img class="card-img-bottom d-block radius-image-full" src="{{$Data->topic_image}}"
                                 alt="Card image cap">
                         </a>
                     </div>
