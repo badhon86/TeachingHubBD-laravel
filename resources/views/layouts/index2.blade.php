@@ -25,7 +25,7 @@
 						<a class="navbar-brand" href="index.html">
 							<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
 						</a> -->
-a
+
 
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
 				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
