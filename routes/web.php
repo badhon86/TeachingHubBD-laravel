@@ -24,4 +24,3 @@ Route::get('/{slug}', 'PageController@index')->name('page'); // all books pages
 
 a
 b
-c
