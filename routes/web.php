@@ -23,4 +23,3 @@ Route::get('contact', 'OtherPageController@getContact')->name('contact'); // con
 Route::get('/{slug}', 'PageController@index')->name('page'); // all books pages
 
 a
-v
