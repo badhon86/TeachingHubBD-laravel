@@ -59,7 +59,7 @@
     {{-- <script id="gs-sdk" src='//www.buildquickbots.com/botwidget/v3/demo/static/js/sdk.js?v=3' key="a7053131-0807-4b21-8383-80f1300c8b35" ></script> --}}
 
 
-    <script>(function(w, d) { w.CollectId = "60a694e8154f895c94bb96a2"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+    {{-- <script>(function(w, d) { w.CollectId = "60a694e8154f895c94bb96a2"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script> --}}
 
 
 </head>
