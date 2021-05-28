@@ -175,7 +175,7 @@
   </nav>
   <!-- /.navbar --> --}}
 
-  <!-- Main Sidebar Container -->
+  {{-- <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
@@ -847,7 +847,7 @@
       </nav>
       <!-- /.sidebar-menu -->
     </div>
-    <!-- /.sidebar -->
+    <!-- /.sidebar --> --}}
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
