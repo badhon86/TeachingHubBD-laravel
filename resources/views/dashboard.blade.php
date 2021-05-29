@@ -31,8 +31,6 @@
 
 
 
-    <!-- Content Header (Page header) -->
-
     <!-- /.content-header -->
 
     <!-- Main content -->
