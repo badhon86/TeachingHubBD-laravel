@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Connect Plus</title>
+    <title>TeachingHub-BD</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="ad_asset/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="ad_asset/vendors/flag-icon-css/css/flag-icon.min.css">
@@ -19,14 +19,14 @@
     <!-- Layout styles -->
     <link rel="stylesheet" href="ad_asset/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="ad_asset/images/favicon.png" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
   </head>
   <body>
     <div class="container-scroller">
       <!-- partial:partials/_navbar.html -->
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-          <a class="navbar-brand brand-logo" href="index.html"><img src="ad_asset/images/logo.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo" href="index.html"><img src="assets/img/logo.png" alt="logo" /></a>
           <a class="navbar-brand brand-logo-mini" href="index.html"><img src="ad_asset/images/logo-mini.svg" alt="logo" /></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-stretch">
@@ -303,11 +303,11 @@
               </div>
             </li>
             <li class="nav-item documentation-link">
-              <a class="nav-link" href="http://www.bootstrapdash.com/demo/connect-plus-free/jquery/documentation/documentation.html" target="_blank">
+              <a class="nav-link" href="http://127.0.0.1:8000/developer/BmuAIAmlLYDj310N/appearance" target="_blank">
                 <span class="icon-bg">
                   <i class="mdi mdi-file-document-box menu-icon"></i>
                 </span>
-                <span class="menu-title">Documentation</span>
+                <span class="menu-title">Developer Mode</span>
               </a>
             </li>
             <li class="nav-item sidebar-user-actions">
