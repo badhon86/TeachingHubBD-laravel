@@ -14,9 +14,12 @@ class DashboardController extends Controller
     public function getIndex()
     {
         // return view('dashboard');
-        $count = DB::table('books')->count();
+        $book = DB::table('books')->count();
+        $user = DB::table('users')->count();
+        $class = DB::table('classes')->count();
+        $discus = DB::table('discuss')->count();
         //return view ('assets.gallery', compact('gsData'));
-        return view('dashboard', compact('count'));
+        return view('dashboard', compact('book','user','class','discus'));
 
     }
     // public function count()
