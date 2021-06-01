@@ -1,9 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
+//use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
-
+use DB;
 class DashboardController extends Controller
 {
     // public function getIndex() {
@@ -13,6 +13,14 @@ class DashboardController extends Controller
     // }
     public function getIndex()
     {
-        return view('dashboard');
+        // return view('dashboard');
+        $count = DB::table('books')->count();
+        //return view ('assets.gallery', compact('gsData'));
+        return view('dashboard', compact('count'));
+
     }
+    // public function count()
+    // {
+
+    // }
 }

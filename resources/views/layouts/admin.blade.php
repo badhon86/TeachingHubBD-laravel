@@ -39,7 +39,7 @@
                 <div class="input-group-prepend bg-transparent">
                   <i class="input-group-text border-0 mdi mdi-magnify"></i>
                 </div>
-                <input type="text" class="form-control bg-transparent border-0" placeholder="Search products">
+                <input type="text" class="form-control bg-transparent border-0" placeholder="Search">
               </div>
             </form>
           </div>
@@ -79,10 +79,10 @@
               <div class="dropdown-menu navbar-dropdown" aria-labelledby="languageDropdown">
                 <a class="dropdown-item" href="#">
                   <div class="nav-language-icon mr-2">
-                    <i class="flag-icon flag-icon-ae" title="ae" id="ae"></i>
+                    <i class="flag-icon flag-icon-bd" title="ae" id="ae"></i>
                   </div>
                   <div class="nav-language-text">
-                    <p class="mb-1 text-black">Arabic</p>
+                    <p class="mb-1 text-black">বাংলা</p>
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
@@ -111,21 +111,21 @@
                 </div>
                 <div class="p-2">
                   <h5 class="dropdown-header text-uppercase pl-2 text-dark">User Options</h5>
-                  <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
-                    <span>Inbox</span>
+                  <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="https://www.tidio.com/panel/conversations/87d723f7905c41eb94c5defed31d411a" target="_blank">
+                    <span>Live chat</span>
                     <span class="p-0">
                       <span class="badge badge-primary">3</span>
                       <i class="mdi mdi-email-open-outline ml-1"></i>
                     </span>
                   </a>
-                  <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
+                  <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="http://127.0.0.1:8000/admin/profile" target="_blank">
                     <span>Profile</span>
                     <span class="p-0">
                       <span class="badge badge-success">1</span>
                       <i class="mdi mdi-account-outline ml-1"></i>
                     </span>
                   </a>
-                  <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                  <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="http://127.0.0.1:8000/developer/BmuAIAmlLYDj310N/miscellaneous" target="_blank">
                     <span>Settings</span>
                     <i class="mdi mdi-settings"></i>
                   </a>
@@ -135,7 +135,7 @@
                     <span>Lock Account</span>
                     <i class="mdi mdi-lock ml-1"></i>
                   </a>
-                  <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
+                  <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="http://127.0.0.1:8000/admin/logout">
                     <span>Log Out</span>
                     <i class="mdi mdi-logout ml-1"></i>
                   </a>
@@ -341,7 +341,7 @@
             </li>
             <li class="nav-item sidebar-user-actions">
               <div class="sidebar-user-menu">
-                <a href="#" class="nav-link"><i class="mdi mdi-logout menu-icon"></i>
+                <a href="http://127.0.0.1:8000/admin/logout" class="nav-link"><i class="mdi mdi-logout menu-icon"></i>
                   <span class="menu-title">Log Out</span></a>
               </div>
             </li>
@@ -360,8 +360,8 @@
           <footer class="footer">
             <div class="footer-inner-wraper">
               <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
-                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap dashboard templates</a> from Bootstrapdash.com</span>
+                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © TeachingHub-BD 2021</span>
+                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">  <a href="http://badhonsarkar.com/" target="_blank">BADHON SARKAR</span>
               </div>
             </div>
           </footer>
