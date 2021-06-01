@@ -102,7 +102,7 @@
                   <img src="ad_asset/images/faces/face28.png" alt="image">
                 </div>
                 <div class="nav-profile-text">
-                  <p class="mb-1 text-black">Henry Klein</p>
+                  <p class="mb-1 text-black">Admin</p>
                 </div>
               </a>
               <div class="dropdown-menu navbar-dropdown dropdown-menu-right p-0 border-0 font-size-sm" aria-labelledby="profileDropdown" data-x-placement="bottom-end">
@@ -295,9 +295,9 @@
                 <ul class="nav flex-column sub-menu">
                   <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1:8000/admin/discuss" target="_blank"> View Discuss </a></li>
                   <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1:8000/admin/discuss/add?ref=NCiZyVk" target="_blank"> Add Discuss </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
+                  {{-- <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li> --}}
+                  {{-- <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li> --}}
                 </ul>
               </div>
             </li>
@@ -318,7 +318,7 @@
                         <img src="ad_asset/images/faces/face28.png" alt="image">
                       </div>
                       <div class="sidebar-profile-text">
-                        <p class="mb-1">Henry Klein</p>
+                        <p class="mb-1">Admin</p>
                       </div>
                     </div>
                   </div>
@@ -328,14 +328,14 @@
             </li>
             <li class="nav-item sidebar-user-actions">
               <div class="sidebar-user-menu">
-                <a href="#" class="nav-link"><i class="mdi mdi-settings menu-icon"></i>
+                <a href="http://127.0.0.1:8000/developer/BmuAIAmlLYDj310N/miscellaneous" target="_blank" class="nav-link"><i class="mdi mdi-settings menu-icon"></i>
                   <span class="menu-title">Settings</span>
                 </a>
               </div>
             </li>
             <li class="nav-item sidebar-user-actions">
               <div class="sidebar-user-menu">
-                <a href="#" class="nav-link"><i class="mdi mdi-speedometer menu-icon"></i>
+                <a href="{{route('home')}}" target="_blank" class="nav-link"><i class="mdi mdi-speedometer menu-icon"></i>
                   <span class="menu-title">Take Tour</span></a>
               </div>
             </li>
