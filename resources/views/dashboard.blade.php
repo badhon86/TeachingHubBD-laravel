@@ -20,8 +20,12 @@
         <button type="button" class="btn btn-link text-dark py-0 border-right">1 Month</button>
         <button type="button" class="btn btn-link text-light py-0">3 Month</button>
       </div>
+
+
+
       <div class="dropdown ml-0 ml-md-4 mt-2 mt-lg-0">
-        <button class="btn bg-white dropdown-toggle p-3 d-flex align-items-center" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-calendar mr-1"></i>24 Mar 2019 - 24 Mar 2019 </button>
+        <button class="btn bg-white dropdown-toggle p-3 d-flex align-items-center" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-calendar mr-1"></i> <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-3d054066-6e83-4b19-a215-ba671feefcc6"></div> </button>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton1">
           <h6 class="dropdown-header">Settings</h6>
           <a class="dropdown-item" href="#">Action</a>
@@ -37,18 +41,18 @@
     <div class="col-md-12">
       <div class="d-sm-flex justify-content-between align-items-center transaparent-tab-border {">
         <ul class="nav nav-tabs tab-transparent" role="tablist">
+          {{-- <li class="nav-item">
+            <a class="nav-link" id="home-tab" data-toggle="tab" href="http://127.0.0.1:8000/developer/BmuAIAmlLYDj310N/users" role="tab" aria-selected="false">Manage Users</a>
+          </li> --}}
           <li class="nav-item">
-            <a class="nav-link" id="home-tab" data-toggle="tab" href="#" role="tab" aria-selected="true">Users</a>
+            <a class="nav-link active" id="business-tab" data-toggle="tab" href="#business-1" role="tab" aria-selected="false">Monitor</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" id="business-tab" data-toggle="tab" href="#business-1" role="tab" aria-selected="false">Business</a>
-          </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link" id="performance-tab" data-toggle="tab" href="#" role="tab" aria-selected="false">Performance</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="conversion-tab" data-toggle="tab" href="#" role="tab" aria-selected="false">Conversion</a>
-          </li>
+          </li> --}}
         </ul>
         <div class="d-md-block d-none">
           <a href="#" class="text-light p-1"><i class="mdi mdi-view-dashboard"></i></a>
@@ -63,10 +67,10 @@
             <div class="col-xl-3 col-lg-6 col-sm-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body text-center">
-                  <h5 class="mb-2 text-dark font-weight-normal">Orders</h5>
+                  <h5 class="mb-2 text-dark font-weight-normal">Books</h5>
                   <h2 class="mb-4 text-dark font-weight-bold">{{ $book }}</h2>
                   <div class="dashboard-progress dashboard-progress-1 d-flex align-items-center justify-content-center item-parent"><i class="mdi mdi-lightbulb icon-md absolute-center text-dark"></i></div>
-                  <p class="mt-4 mb-0">Completed</p>
+                  <p class="mt-4 mb-0">Total books</p>
                   <h3 class="mb-0 font-weight-bold mt-2 text-dark">{{ $book }}</h3>
                 </div>
               </div>
@@ -76,10 +80,10 @@
             <div class="col-xl-3 col-lg-6 col-sm-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body text-center">
-                  <h5 class="mb-2 text-dark font-weight-normal">Unique Visitors</h5>
+                  <h5 class="mb-2 text-dark font-weight-normal">User</h5>
                   <h2 class="mb-4 text-dark font-weight-bold">{{ $user }}</h2>
                   <div class="dashboard-progress dashboard-progress-2 d-flex align-items-center justify-content-center item-parent"><i class="mdi mdi-account-circle icon-md absolute-center text-dark"></i></div>
-                  <p class="mt-4 mb-0">Increased since yesterday</p>
+                  <p class="mt-4 mb-0">Total users</p>
                   <h3 class="mb-0 font-weight-bold mt-2 text-dark">{{ $user }}</h3>
                 </div>
               </div>
@@ -87,10 +91,10 @@
             <div class="col-xl-3  col-lg-6 col-sm-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body text-center">
-                  <h5 class="mb-2 text-dark font-weight-normal">Impressions</h5>
+                  <h5 class="mb-2 text-dark font-weight-normal">Class</h5>
                   <h2 class="mb-4 text-dark font-weight-bold">{{ $class }}</h2>
                   <div class="dashboard-progress dashboard-progress-3 d-flex align-items-center justify-content-center item-parent"><i class="mdi mdi-eye icon-md absolute-center text-dark"></i></div>
-                  <p class="mt-4 mb-0">Increased since yesterday</p>
+                  <p class="mt-4 mb-0">Total classes</p>
                   <h3 class="mb-0 font-weight-bold mt-2 text-dark">{{ $class }}</h3>
                 </div>
               </div>
@@ -98,10 +102,10 @@
             <div class="col-xl-3 col-lg-6 col-sm-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body text-center">
-                  <h5 class="mb-2 text-dark font-weight-normal">Followers</h5>
+                  <h5 class="mb-2 text-dark font-weight-normal">Discuss Topic</h5>
                   <h2 class="mb-4 text-dark font-weight-bold">{{ $discus }}</h2>
                   <div class="dashboard-progress dashboard-progress-4 d-flex align-items-center justify-content-center item-parent"><i class="mdi mdi-cube icon-md absolute-center text-dark"></i></div>
-                  <p class="mt-4 mb-0">Decreased since yesterday</p>
+                  <p class="mt-4 mb-0">Total discuss topic</p>
                   <h3 class="mb-0 font-weight-bold mt-2 text-dark">{{ $discus }}</h3>
                 </div>
               </div>
