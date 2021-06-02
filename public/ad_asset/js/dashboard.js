@@ -99,7 +99,7 @@
 				}
 			});
     }
-    
+
 		if ($("#total-profit").length) {
 			var totalProfitData = {
 				labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"],
@@ -167,7 +167,7 @@
 				options: totalProfitOptions,
 			});
     }
-    
+
 		if ($("#total-profit-dark").length) {
 			var graphGradient = document.getElementById("total-profit-dark").getContext('2d');;
 			var saleGradientBg = graphGradient.createLinearGradient(15, 0, 15, 190);
@@ -307,7 +307,7 @@
 				options: totalExpencesOptions,
 			});
     }
-    
+
 		if ($("#total-expences-dark").length) {
 			var graphGradient = document.getElementById("total-expences-dark").getContext('2d');;
 			var saleGradientBg = graphGradient.createLinearGradient(15, 0, 15, 190);
@@ -380,7 +380,7 @@
 
 		if ($("#device-sales").length) {
 			var deviceSalesData = {
-				labels: ["Iphone", "Google", "Sumsung", "Huawei", "Xiaomi", "Oppo", "Vivo", "Lg"],
+				labels: ["Jan2021", "Feb2021", "Mar2021", "Apr2021", "May2021", "June2021", "Jul2021", "Aug2021"],
 				datasets: [{
 						label: 'Demand',
 						data: [450, 500, 300, 350, 200, 320, 310, 700],
@@ -394,7 +394,7 @@
 						fill: false
 					},
 					{
-						label: 'Supply',
+						label: 'Expectation',
 						data: [250, 100, 310, 75, 290, 100, 500, 260],
 						backgroundColor: [
 							'#fc5a5a', '#fc5a5a', '#fc5a5a', '#fc5a5a', '#fc5a5a', '#fc5a5a', '#fc5a5a', '#fc5a5a',
@@ -486,10 +486,10 @@
 			});
 			document.getElementById('device-sales-legend').innerHTML = barChart.generateLegend();
     }
-    
+
 		if ($("#device-sales-dark").length) {
 			var deviceSalesDarkData = {
-				labels: ["Iphone", "Google", "Sumsung", "Huawei", "Xiaomi", "Oppo", "Vivo", "Lg"],
+				labels: ["January", "Feb 2021", "Mar2021", "Apr2021", "May2021", "June2021", "Jul2021", "Aug2021"],
 				datasets: [{
 						label: 'Demand',
 						data: [450, 500, 300, 350, 200, 320, 310, 700],
@@ -598,7 +598,7 @@
 
 		if ($("#device-sales-dark-rtl").length) {
 			var deviceSalesDarkData = {
-				labels: ["Iphone", "Google", "Sumsung", "Huawei", "Xiaomi", "Oppo", "Vivo", "Lg"],
+				labels: ["January", "Feb 2021", "Mar2021", "Apr2021", "May2021", "June2021", "Jul2021", "Aug2021"],
 				datasets: [{
 					label: 'الطلب',
 						data: [450, 500, 300, 350, 200, 320, 310, 700],
@@ -706,7 +706,7 @@
 		}
 		if ($("#device-sales-rtl").length) {
 			var deviceSalesData = {
-				labels: ["Iphone", "Google", "Sumsung", "Huawei", "Xiaomi", "Oppo", "Vivo", "Lg"],
+				labels: ["January", "Feb 2021", "Mar2021", "Apr2021", "May2021", "June2021", "Jul2021", "Aug2021"],
 				datasets: [{
 						label: 'الطلب',
 						data: [450, 500, 300, 350, 200, 320, 310, 700],
@@ -1029,7 +1029,7 @@
 			});
 			document.getElementById('pageViewAnalyticLengend').innerHTML = barChart.generateLegend();
 		}
-		
+
 		if ($("#page-view-analytic-rtl").length) {
 			var pageiVewAnalyticData = {
 				labels: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"],
@@ -1138,7 +1138,7 @@
 			});
 			document.getElementById('pageViewAnalyticLengend').innerHTML = barChart.generateLegend();
     }
-    
+
 		if ($("#page-view-analytic-dark").length) {
 			var graphGradient = document.getElementById("page-view-analytic-dark").getContext('2d');;
 			var saleGradientBg = graphGradient.createLinearGradient(25, 0, 25, 420);
@@ -1456,7 +1456,7 @@
 				options: myBalanceOptions
 			});
     }
-    
+
 		if ($("#my-balance-dark").length) {
 			var myBalanceDarkData = {
 				labels: ["Jan", "Feb", "Mar", "Apr"],
@@ -1694,7 +1694,7 @@
 				options: prediction1OptionsDark,
 			});
     }
-    
+
 		if ($("#prediction-2").length) {
 			var graphGradient = document.getElementById("prediction-2").getContext('2d');;
 			var saleGradientBg = graphGradient.createLinearGradient(25, 0, 25, 80);
@@ -1839,7 +1839,7 @@
 
 			});
     }
-    
+
 		if ($("#prediction-3").length) {
 			var graphGradient = document.getElementById("prediction-3").getContext('2d');;
 			var saleGradientBg = graphGradient.createLinearGradient(25, 0, 25, 80);
@@ -1909,7 +1909,7 @@
 				options: prediction1Options,
 			});
 		}
-		
+
 		if ($("#prediction-3-dark").length) {
 			var graphGradient = document.getElementById("prediction-3-dark").getContext('2d');;
 			var saleGradientBg = graphGradient.createLinearGradient(25, 0, 25, 75);
@@ -1979,7 +1979,7 @@
 				options: prediction3OptionsDark,
 			});
     }
-    
+
 		if ($("#prediction-4").length) {
 			var graphGradient = document.getElementById("prediction-4").getContext('2d');;
 			var saleGradientBg = graphGradient.createLinearGradient(25, 0, 25, 110);
@@ -2118,6 +2118,6 @@
 				options: prediction4OptionsDark,
 			});
     }
-    
+
 	});
 })(jQuery);

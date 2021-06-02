@@ -142,10 +142,10 @@
                       </div>
                       <div class="wrapper pt-5">
                         <div class="text-wrapper d-flex align-items-center justify-content-between mb-2">
-                          <p class="mb-0 text-dark">Expenses</p>
+                          <p class="mb-0 text-dark">Total users</p>
                           <span class="text-success"><i class="mdi mdi-arrow-up"></i>52.95%</span>
                         </div>
-                        <h3 class="mb-4 text-dark font-weight-bold">$ 59565</h3>
+                        <h3 class="mb-4 text-dark font-weight-bold">{{$user}}</h3>
                         <canvas id="total-expences"></canvas>
                       </div>
                     </div>
@@ -153,12 +153,12 @@
                       <div class="pl-0 pl-lg-4 ">
                         <div class="d-xl-flex justify-content-between align-items-center mb-2">
                           <div class="d-lg-flex align-items-center mb-lg-2 mb-xl-0">
-                            <h3 class="text-dark font-weight-bold mr-2 mb-0">Devices sales</h3>
+                            <h3 class="text-dark font-weight-bold mr-2 mb-0">Activities Analysis</h3>
                             <h5 class="mb-0">( growth 62% )</h5>
                           </div>
                           <div class="d-lg-flex">
-                            <p class="mr-2 mb-0">Timezone:</p>
-                            <p class="text-dark font-weight-bold mb-0">GMT-0400 Eastern Delight Time</p>
+                            {{-- <p class="mr-2 mb-0">Timezone:</p>
+                            <p class="text-dark font-weight-bold mb-0">GMT-0400 Eastern Delight Time</p> --}}
                           </div>
                         </div>
                         <div class="graph-custom-legend clearfix" id="device-sales-legend"></div>
@@ -170,7 +170,7 @@
               </div>
             </div>
           </div>
-
+{{-- event calendar --}}
           <div class="row">
             <div class="col-12 grid-margin">
               <div class="card">
