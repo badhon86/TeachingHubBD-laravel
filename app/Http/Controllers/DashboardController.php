@@ -20,8 +20,9 @@ class DashboardController extends Controller
         $discus = DB::table('discuss')->count();
         $modul = DB::table('cb_modules')->count();
         $tabl = DB::table('migrations')->count();
+        $gdData = DB::table('messages')->get();
         //return view ('assets.gallery', compact('gsData'));
-        return view('dashboard', compact('book','user','class','discus','modul','tabl'));
+        return view('dashboard', compact('book','user','class','discus','modul','tabl','gdData'));
 
     }
     // public function count()

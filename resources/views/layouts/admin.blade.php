@@ -153,25 +153,28 @@
                 <i class="mdi mdi-email-outline"></i>
                 <span class="count-symbol bg-success"></span>
               </a>
+
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
                 <h6 class="p-3 mb-0 bg-primary text-white py-4">Messages</h6>
+                @foreach ($gdData as $Data)
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
                     <img src="ad_asset/images/faces/face4.jpg" alt="image" class="profile-pic">
                   </div>
                   <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Mark send you a message</h6>
-                    <p class="text-gray mb-0"> 1 Minutes ago </p>
+                    <h6 class="preview-subject ellipsis mb-1 font-weight-normal">{{$Data->name}}</h6>
+                    <p class="text-gray mb-0">{{$Data->subject}}</p>
                   </div>
                 </a>
-                <div class="dropdown-divider"></div>
+                @endforeach
+                {{-- <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
                     <img src="ad_asset/images/faces/face2.jpg" alt="image" class="profile-pic">
                   </div>
                   <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Cregh send you a message</h6>
+                    <h6 class="preview-subject ellipsis mb-1 font-weight-normal">{{$Data->name}}</h6>
                     <p class="text-gray mb-0"> 15 Minutes ago </p>
                   </div>
                 </a>
@@ -187,8 +190,10 @@
                 </a>
                 <div class="dropdown-divider"></div>
                 <h6 class="p-3 mb-0 text-center">4 new messages</h6>
-              </div>
+              </div> --}}
             </li>
+
+
             <li class="nav-item dropdown">
               <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
                 <i class="mdi mdi-bell-outline"></i>
@@ -205,7 +210,7 @@
                   </div>
                   <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                     <h6 class="preview-subject font-weight-normal mb-1">Event today</h6>
-                    <p class="text-gray ellipsis mb-0"> Just a reminder that you have an event today </p>
+                    <p class="text-gray ellipsis mb-0"> create an event today </p>
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
