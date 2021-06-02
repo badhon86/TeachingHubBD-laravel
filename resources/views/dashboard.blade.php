@@ -5,9 +5,6 @@
 <div class="row" id="proBanner">
     <div class="col-12">
       <span class="d-flex align-items-center purchase-popup">
-        {{-- <p>Like what you see? Check out our premium version for more.</p> --}}
-        {{-- <a href="https://github.com/BootstrapDash/ConnectPlusAdmin-Free-Bootstrap-Admin-Template" target="_blank" class="btn ml-auto download-button">Download Free Version</a>
-        <a href="http://www.bootstrapdash.com/demo/connect-plus/jquery/template/" target="_blank" class="btn purchase-button">Upgrade To Pro</a> --}}
         <i class="mdi mdi-close" id="bannerClose"></i>
       </span>
     </div>
@@ -21,10 +18,10 @@
         <button type="button" class="btn btn-link text-light py-0">3 Month</button>
       </div>
 
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-      <div class="elfsight-app-3d054066-6e83-4b19-a215-ba671feefcc6"></div>
+      {{-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-3d054066-6e83-4b19-a215-ba671feefcc6"></div> --}}
 
-      <div class="dropdown ml-0 ml-md-4 mt-2 mt-lg-0">
+      {{-- <div class="dropdown ml-0 ml-md-4 mt-2 mt-lg-0">
         <button class="btn bg-white dropdown-toggle p-3 d-flex align-items-center" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-calendar mr-1"></i>24 Mar 2019 - 24 Mar 2019 </button>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton1">
           <h6 class="dropdown-header">Settings</h6>
@@ -34,7 +31,7 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Separated link</a>
         </div>
-      </div>
+      </div> --}}
     </div>
   </div>
   <div class="row">
@@ -123,24 +120,24 @@
                           <button class="btn p-0 text-dark dropdown-toggle" type="button" id="dropdownMenuIconButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="mdi mdi-dots-vertical"></i>
                           </button>
-                          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuIconButton1">
+                          {{-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuIconButton1">
                             <h6 class="dropdown-header">Settings</h6>
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Separated link</a>
-                          </div>
+                          </div> --}}
                         </div>
                       </div>
                     </div>
                     <div class="col-lg-3 col-sm-4 grid-margin  grid-margin-lg-0">
                       <div class="wrapper pb-5 border-bottom">
                         <div class="text-wrapper d-flex align-items-center justify-content-between mb-2">
-                          <p class="mb-0 text-dark">Total Profit</p>
+                          <p class="mb-0 text-dark">Total members</p>
                           <span class="text-success"><i class="mdi mdi-arrow-up"></i>2.95%</span>
                         </div>
-                        <h3 class="mb-0 text-dark font-weight-bold">$ 92556</h3>
+                        <h3 class="mb-0 text-dark font-weight-bold">{{$user}}</h3>
                         <canvas id="total-profit"></canvas>
                       </div>
                       <div class="wrapper pt-5">
@@ -173,6 +170,23 @@
               </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-12 grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+
+                    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                     <div class="elfsight-app-3d054066-6e83-4b19-a215-ba671feefcc6"></div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           <div class="row">
             <div class="col-sm-4 grid-margin stretch-card">
               <div class="card card-danger-gradient">
