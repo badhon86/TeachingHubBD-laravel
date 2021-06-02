@@ -280,6 +280,12 @@
               </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="https://apps.elfsight.com/panel/applications/events-calendar/edit/3d054066-6e83-4b19-a215-ba671feefcc6/" target="_blank">
+                  <span class="icon-bg"><i class="mdi mdi-table-large menu-icon"></i></span>
+                  <span class="menu-title">Create Event</span>
+                </a>
+              </li>
+            <li class="nav-item">
               <a class="nav-link" href="http://127.0.0.1:8000/admin/suggestions" target="_blank">
                 <span class="icon-bg"><i class="mdi mdi-chart-bar menu-icon"></i></span>
                 <span class="menu-title">Suggestions</span>

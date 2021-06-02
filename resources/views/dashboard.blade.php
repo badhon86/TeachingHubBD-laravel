@@ -191,21 +191,21 @@
             <div class="col-sm-4 grid-margin stretch-card">
               <div class="card card-danger-gradient">
                 <div class="card-body mb-4">
-                  <h4 class="card-title text-white">Account Retention</h4>
+                  <h4 class="card-title text-white">Database Analysis</h4>
                   <canvas id="account-retension"></canvas>
                 </div>
                 <div class="card-body bg-white pt-4">
                   <div class="row pt-4">
                     <div class="col-sm-6">
                       <div class="text-center border-right border-md-0">
-                        <h4>Conversion</h4>
-                        <h1 class="text-dark font-weight-bold mb-md-3">$306</h1>
+                        <h4>Total Modules</h4>
+                        <h1 class="text-dark font-weight-bold mb-md-3">{{ $modul }}</h1>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="text-center">
-                        <h4>Cancellation</h4>
-                        <h1 class="text-dark font-weight-bold">$1,520</h1>
+                        <h4>Total DB-Tables</h4>
+                        <h1 class="text-dark font-weight-bold">{{ $tabl }}</h1>
                       </div>
                     </div>
                   </div>
