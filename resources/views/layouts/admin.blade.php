@@ -137,8 +137,8 @@
                   </a>
                   <div role="separator" class="dropdown-divider"></div>
                   <h5 class="dropdown-header text-uppercase  pl-2 text-dark mt-2">Actions</h5>
-                  <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
-                    <span>Lock Account</span>
+                  <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="https://apps.elfsight.com/panel/applications/events-calendar/edit/3d054066-6e83-4b19-a215-ba671feefcc6/" target="_blank">
+                    <span>Add Event</span>
                     <i class="mdi mdi-lock ml-1"></i>
                   </a>
                   <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="http://127.0.0.1:8000/admin/logout">
@@ -334,7 +334,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="badge badge-danger">3</div>
+                  <div class="badge badge-danger"></div>
                 </div>
               </div>
             </li>
