@@ -13530,7 +13530,7 @@ dl {
         text-overflow: ellipsis; }
         .sidebar .nav .nav-item .nav-link .icon-bg {
           margin-right: 0.875rem;
-          background: rgba(194, 244, 219, 0.12);
+          background: rgba(188, 194, 191, 0.12);
           height: 24px;
           width: 24px;
           position: relative;
@@ -13550,7 +13550,7 @@ dl {
             margin-left: 1rem;
             margin-right: 0; }
           .sidebar .nav .nav-item .nav-link .icon-bg .menu-icon {
-            color: #33c92d; }
+            color: #c3cfc3; }
             .sidebar .nav .nav-item .nav-link .icon-bg .menu-icon:after, .sidebar .nav .nav-item .nav-link .icon-bg .menu-icon:before {
               font-size: 1rem;
               color: inherit; }
@@ -13610,10 +13610,10 @@ dl {
             left: auto;
             right: 0; }
         .sidebar .nav .nav-item.active > .nav-link .menu-title {
-          color: #44ce42;
+          color: #b4bdb4;
           font-family: "nunito-medium", sans-serif; }
         .sidebar .nav .nav-item.active > .nav-link i {
-          color: #44ce42; }
+          color: #6b776b; }
       .sidebar .nav .nav-item:hover {
         background: #161621; }
       .sidebar .nav .nav-item.nav-profile .nav-link {
