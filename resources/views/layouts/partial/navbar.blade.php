@@ -19,7 +19,7 @@
                     <a class="nav-link" href="{{route('terms-and-condition')}}">Terms & Condition</a>
                 </li> --}}
                 <li class="nav-item {{ url()->current()==route('contact') ? 'active' : '' }}">
-                    <a class="nav-link" href="{{route('contact')}}">Contact</a>
+                    <a class="nav-link" href="{{route('contact')}}">Event</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About Us</a>

@@ -5,6 +5,8 @@
 <div class="row" id="proBanner">
     <div class="col-12">
       <span class="d-flex align-items-center purchase-popup">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-3f3400a0-95a5-449c-8639-b23c5ce72c15"></div>
         <i class="mdi mdi-close" id="bannerClose"></i>
       </span>
     </div>
@@ -108,6 +110,25 @@
               </div>
             </div>
           </div>
+
+            {{-- event calendar --}}
+            <div class="row">
+                <div class="col-12 grid-margin">
+                <div class="card">
+                    <div class="card-body">
+                    <div class="row">
+
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-3d054066-6e83-4b19-a215-ba671feefcc6"></div>
+
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+          {{-- recent activity --}}
           <div class="row">
             <div class="col-12 grid-margin">
               <div class="card">
@@ -170,21 +191,7 @@
               </div>
             </div>
           </div>
-{{-- event calendar --}}
-          <div class="row">
-            <div class="col-12 grid-margin">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
 
-                    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                     <div class="elfsight-app-3d054066-6e83-4b19-a215-ba671feefcc6"></div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
 
           <div class="row">
