@@ -5,7 +5,8 @@
 <div class="row" id="proBanner">
     <div class="col-12">
       <span class="d-flex align-items-center purchase-popup">
-
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-3f3400a0-95a5-449c-8639-b23c5ce72c15"></div>
         <i class="mdi mdi-close" id="bannerClose"></i>
       </span>
     </div>
