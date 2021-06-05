@@ -22,10 +22,8 @@
 
 
 
-      {{-- <div class="dropdown ml-0 ml-md-4 mt-2 mt-lg-0">
-        <button class="btn bg-white dropdown-toggle p-3 d-flex align-items-center" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-calendar mr-1"></i>24 Mar 2019 - 24 Mar 2019 </button>
 
-      --}}
+
     </div>
   </div>
   <div class="row">
