@@ -31,8 +31,7 @@
           <a class="dropdown-item" href="#">Something else here</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Separated link</a>
-        </div>
-      </div> --}}
+      --}}
     </div>
   </div>
   <div class="row">
