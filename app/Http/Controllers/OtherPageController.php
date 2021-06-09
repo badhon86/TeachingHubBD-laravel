@@ -5,6 +5,11 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 class OtherPageController extends Controller
 {
+    public function getMouloDetail()
+    {
+        return view('others.ptable');
+    }
+
     public function getTermsAndCondition()
     {
         return view('others.terms-and-condition');
@@ -17,6 +22,7 @@ class OtherPageController extends Controller
     {
         return view('others.contact');
     }
+
     public function getCalculate()
     {
         return view('others.calculate');
@@ -35,4 +41,7 @@ class OtherPageController extends Controller
         //return view ('assets.gallery', compact('gsData'));
         return view('others.discuss', compact('gsData'));
     }
+
+
+
 }

@@ -19,6 +19,7 @@ Route::get('terms-and-condition', 'OtherPageController@getTermsAndCondition')->n
 Route::get('calculate', 'OtherPageController@getCalculate')->name('calculate'); // terms and cndition page.
 Route::get('discuss', 'OtherPageController@data')->name('discuss'); // blog page.
 Route::get('discuspage', 'OtherPageController@getDisDetails')->name('discuspage');
-Route::get('contact', 'OtherPageController@getContact')->name('contact'); // contact page.
+Route::get('moulo', 'OtherPageController@getMouloDetail')->name('ptable');
+Route::get('contact', 'OtherPageController@getContact')->name('contact'); // event page.
 Route::get('/{slug}', 'PageController@index')->name('page'); // all books pages
 
