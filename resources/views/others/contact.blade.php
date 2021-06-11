@@ -7,7 +7,7 @@
       <div class="section-title" data-aos="fade-up">
         <h2>Events</h2>
 
-      </div>
+
       <div class="row mt-5 justify-content-center" data-aos="fade-up">
         <div class="col-lg-10">
           <form
@@ -23,6 +23,7 @@
           </form>
         </div>
       </div>
+    </div>
     </div>
     <br>
     <br>
