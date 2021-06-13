@@ -77,7 +77,7 @@
                     @endauth
                 </div>
             @endif
-
+LARAVEL
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
