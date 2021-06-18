@@ -21,5 +21,5 @@ Route::get('discuss', 'OtherPageController@data')->name('discuss'); // blog page
 Route::get('discuspage', 'OtherPageController@getDisDetails')->name('discuspage');
 Route::get('moulo', 'OtherPageController@getMouloDetail')->name('ptable'); //priodic table
 Route::get('contact', 'OtherPageController@getContact')->name('contact'); // event page.
-Route::get('/{slug}', 'PageController@index')->name('page'); // all books pa
+Route::get('/{slug}', 'PageController@index')->name('page'); // all books
 
